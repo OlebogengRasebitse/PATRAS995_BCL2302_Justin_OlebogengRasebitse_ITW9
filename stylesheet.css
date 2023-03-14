@@ -1,14 +1,43 @@
-.navbar {
-    background-color:darkorange;
-    padding: 20px;
-    float: left;
-   
+body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
-   
-    
- 
-  
+header {
+    margin-bottom: 8%;
+}
+
+.headerblock {
+    background-color: yellow;
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    bottom: 40%;
+    left: 15%;
+
 
 }
 
+
+.navbar{
+    background-color:rgb(161, 209, 173);
+    margin-right: 2px;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: space-around;
+ 
+   }
+
+   a {
+    color: black;
+    font: italic;
+   }
+
+
+  footer {
+    display: inline;
+  }
+
+
+
+.cover {
+    background-color: coral;
+}
 
