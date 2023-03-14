@@ -13,6 +13,11 @@ header {
     left: 15%;
     background-image: url(https://unsplash.com/photos/JdoofvUDUwc);
 
+    .name {
+        text-align: justify-content;
+    }
+
+
 
 }
 
