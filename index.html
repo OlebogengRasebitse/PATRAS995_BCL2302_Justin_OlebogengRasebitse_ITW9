@@ -13,26 +13,32 @@
 <body>
     <header>
 
-        <nav >
-            <ul class="navbar" >
+        <nav>
+            <ul class="navbar">
                 <a href="#Education">Education</a>
                 <a href="#Job Experience">Job Experience</a>
                 <a href="#Skills">Skills</a>
                 <a href="#Contact Me">Contact Me</a>
             </ul>
         </nav>
+
         <picture>
-            <source srcset=""
+            <div class="headerblock">
+                <source srcset="./img/ImageSmall.jpg" media="max-width: 600px">
+                <source srcset="./img/Imagemedium.jpg" media="max-width: 1000">
+                <img src="./images/ImageLarge.jpg" alt="Image" width="280px" height="200px">
         </picture>
-        <div class="headerblock">
-        <h3>Hi, Im Patience Olebogeng Rasebitse</h1>
-            <h4>Software Developer</h4>
+        <div id="intro">
+            <h3>Hi, Im Patience Olebogeng Rasebitse</h1>
+                <h4>Software Developer</h4>
+        </div>
         </div>
 
     </header>
 
     <h2>About Me</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, temporibus nostrum saepe libero facilis molestiae veniam debitis omnis consectetur ut unde adipisci quas pariatur, sed, nulla est. Accusamus, velit soluta?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, temporibus nostrum saepe libero facilis molestiae
+        veniam debitis omnis consectetur ut unde adipisci quas pariatur, sed, nulla est. Accusamus, velit soluta?</p>
 
     <h2 id="Education"> Education</h2>
     <p>Vaal University of Technology-National Diploma: Public Relations Management</p>
@@ -40,8 +46,8 @@
 
     <h2 id="Job Experience"></h2>
     <h4>Plant Attandat</h4>
-   <p>Ilitha Mining</p>
-<br>
+    <p>Ilitha Mining</p>
+    <br>
     <h4></h4>
     <h4>Public Relations</h4>
     <p>BonCom </p>
@@ -49,7 +55,7 @@
     <h2 id="Skills">Skills</h2>
     <br>
 
-    
+
     <h3>Contact me</h3>
     <form action="htt=//formsubmit.co/patiencerasebitse@gmail.com" method="post">
         <ul class="cover">
@@ -57,13 +63,13 @@
                 <label for="name">Name</label>
                 <input type="text" id="Name" required>
             </li>
-                <li class="row">
+            <li class="row">
                 <label for="Last Name"> Last Name</label>
                 <input type="text" id="Last Namer" required>
             </li>
             <li class="row">
                 <label for="email">email</label>
-                <input type="text" id="Email"required>
+                <input type="text" id="Email" required>
             </li>
             <li class="row">
                 <label for="Phone Number">Phone Number</label>
@@ -71,7 +77,7 @@
                 <br>
             </li>
             <label for="Form select">Please Select</label>
-                <select name="Select" id="select option" required>
+            <select name="Select" id="select option" required>
                 <option value="">--Please choose an option--</option>
                 <option value="Interview Opportunity">Interview Opportunity</option>
                 <option value="Recruiter">Recruiter</option>
@@ -81,20 +87,24 @@
                 <br>
                 <textarea id="msg" name="msg" rows="5" cols="25"></textarea>
                 <br>
-                <input type="submit"value="Submit">
+                <input style="color: cadetblue;" type="submit" value="Submit">
+
+              
+
+
             </select>
 
-           
+
 
 
         </ul>
 
 
-  
-         
+
+
 
     </form>
-  
+
 
 
 
@@ -106,8 +116,8 @@
 
 
 
-<p><a href= https://github.com/OlebogengRasebitse/digital-resume.git>Github</a></p>
-<p><a href="https://www.linkedin.com/in/patience-rasebitse-0a1281b2/">Linkedin</a></p>
+        <p><a href=https://github.com/OlebogengRasebitse/digital-resume.git>Github</a></p>
+        <p><a href="https://www.linkedin.com/in/patience-rasebitse-0a1281b2/">Linkedin</a></p>
     </footer>
 
 </body>

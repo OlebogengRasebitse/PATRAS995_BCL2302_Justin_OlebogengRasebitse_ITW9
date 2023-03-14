@@ -15,6 +15,16 @@ header {
 
 }
 
+#intro {
+    padding: 50%;
+
+}
+
+img {
+    float: right;
+    
+}
+
 
 .navbar{
     background-color:rgb(161, 209, 173);
@@ -39,5 +49,9 @@ header {
 
 .cover {
     background-color: coral;
+    width: 40%;
+    justify-content: center;
+
 }
+
 
