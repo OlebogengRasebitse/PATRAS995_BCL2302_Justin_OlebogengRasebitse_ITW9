@@ -2,8 +2,8 @@ body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 header {
     margin-bottom: 8%;
-}
 
+}
 .headerblock {
     background-color: yellow;
     width: 70%;
@@ -11,14 +11,16 @@ header {
     position: absolute;
     bottom: 40%;
     left: 15%;
+    background-image: url(https://unsplash.com/photos/JdoofvUDUwc);
 
 
 }
 
-#intro {
-    padding: 50%;
-
+.intro {
+   
 }
+
+
 
 img {
     float: right;
@@ -27,11 +29,11 @@ img {
 
 
 .navbar{
-    background-color:rgb(161, 209, 173);
     margin-right: 2px;
     padding-bottom: 300px;
     display: flex;
     justify-content: space-around;
+
  
    }
 
@@ -54,4 +56,19 @@ img {
 
 }
 
+.gridcontainer {
+    display: grid;
+    background-color: darkorange;
+    padding: 30px;
+   text-align: left  ;
+
+   
+}
+ .education {
+    background-color: darkkhaki;
+ }
+
+ ul {
+    list-style: none;
+ }
 
