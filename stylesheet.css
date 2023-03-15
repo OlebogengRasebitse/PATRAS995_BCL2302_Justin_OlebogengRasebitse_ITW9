@@ -78,10 +78,12 @@ grid-template-columns: 50% 50%;
 
 
 
+
 }
 
 .box1 {
    padding: 20px;
+ 
 
 }
 
@@ -91,13 +93,17 @@ grid-template-columns: 50% 50%;
 }
 
 .box3 {
- padding: 20px;
-    
+
 }
 
 .box4 {
     padding: 20px;
-    
+    padding: 20px;
+    grid-column-start: 2;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-column-end:1 ;
+       
 }
 
 .box5 {
@@ -109,6 +115,3 @@ ul {
 }
 
 
-footer {
-   background-color: #5E1159;
-}
