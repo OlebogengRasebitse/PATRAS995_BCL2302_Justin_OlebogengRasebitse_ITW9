@@ -19,7 +19,7 @@ margin: 100px;
 
     width: 100%;
     height: 50%;
-    position: absolute;
+    position: static;
     bottom: 39%;
     background-image: url(images/aryan-dhiman-iGLLtLINSkw-unsplash.jpg);
    align-items: center;
@@ -156,6 +156,9 @@ ul {
             
     }
 
+    .navbar {
+        display: block;
+    }
   
 
 .headerblock {
