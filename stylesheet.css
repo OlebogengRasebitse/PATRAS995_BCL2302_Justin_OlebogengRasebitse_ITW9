@@ -1,56 +1,57 @@
-body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 header {
     margin-bottom: 8%;
+    background-color:#5E1159 ;
+}
 
+.name{
+    text-align: justify;
 }
 .headerblock {
-    background-color: yellow;
+   background-color: #B7A6B4;
     width: 70%;
     height: 50%;
     position: absolute;
     bottom: 40%;
     left: 15%;
-    background-image: url(https://unsplash.com/photos/JdoofvUDUwc);
-
-    .name {
-        text-align: justify-content;
-    }
-
-
-
 }
 
-.intro {
-   
+.name {
+    text-align: justify-content;
 }
 
 
 
 img {
     float: right;
-    
+    border-radius: 5px;
+    margin: 5px;
+
 }
 
 
-.navbar{
+.navbar {
     margin-right: 2px;
     padding-bottom: 300px;
     display: flex;
     justify-content: space-around;
+    text-decoration: solid;
 
- 
-   }
 
-   a {
+}
+
+a {
     color: black;
     font: italic;
-   }
+}
 
 
-  footer {
+footer {
     display: inline;
-  }
+}
 
 
 
@@ -61,19 +62,43 @@ img {
 
 }
 
+<!----Grid-------------->
 .gridcontainer {
-    display: grid;
-    background-color: darkorange;
-    padding: 30px;
-   text-align: left  ;
+   background-color: #B7A6B4;
 
-   
+
 }
- .education {
-    background-color: darkkhaki;
- }
 
- ul {
+.gridbox {
+    color: yellow;
+    background-color: blue;
+    grid-area: box;
+}
+
+.box1 {
+    display: grid
+}
+
+.box2 {
+    display: grid;
+    grid-area: box2;
+}
+
+.box3 {
+    display: grid;
+    grid-area: box3;
+}
+
+
+
+
+
+
+<!---removed list bullets----->ul {
     list-style: none;
- }
+}
 
+
+footer {
+   background-color: #5E1159;
+}
