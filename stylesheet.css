@@ -3,9 +3,12 @@ body {
     background-color: #FFEECA;
 }
 
-header {
+.intro {
     margin-bottom: 8%;
-    background-image: url(images/fernando-hernandez-JdoofvUDUwc-unsplash.jpg);
+background-color:black ;
+position: relative ;
+height: 10px;
+margin: 100px;
   
 }
 
@@ -13,11 +16,10 @@ header {
 
 .headerblock {
 
-    width: 70%;
+    width: 100%;
     height: 50%;
     position: absolute;
     bottom: 40%;
-    left: 15%;
     background-image: url(images/milad-fakurian-_zSZVxZWhkY-unsplash.jpg);
 
 }
@@ -42,9 +44,11 @@ img {
 
 .navbar {
     display: flex;
-    margin-right: 20px;
-    padding-bottom: 300px;
+    padding: 40px;
     justify-content: space-between;
+    border: solid black;
+    border-width: 1px;
+   
 }
 
 
@@ -74,6 +78,9 @@ margin: 5rem auto;
 width: min(95% 75rem);
 display: grid;
 grid-template-columns: 50% 50%;
+margin: 10%;
+position: relative;
+top: 200px;
 
 
 
