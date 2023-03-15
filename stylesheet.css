@@ -4,23 +4,28 @@ body {
 
 header {
     margin-bottom: 8%;
-    background-color:#5E1159 ;
+    background-image: url(images/fernando-hernandez-JdoofvUDUwc-unsplash.jpg);
+  
 }
 
-.name{
-    text-align: justify;
-}
+   
+
 .headerblock {
-   background-color: #B7A6B4;
+
     width: 70%;
     height: 50%;
     position: absolute;
     bottom: 40%;
     left: 15%;
+    background-image: url(images/milad-fakurian-_zSZVxZWhkY-unsplash.jpg);
+
 }
 
+
 .name {
-    text-align: justify-content;
+    color: whitesmoke;
+    margin: 20px;
+    text-align: justify;
 }
 
 
@@ -29,23 +34,24 @@ img {
     float: right;
     border-radius: 5px;
     margin: 5px;
+     
 
 }
 
 
 .navbar {
-    margin-right: 2px;
-    padding-bottom: 300px;
     display: flex;
-    justify-content: space-around;
-    text-decoration: solid;
-
-
+    margin-right: 20px;
+    padding-bottom: 300px;
+    justify-content: space-between;
 }
+
+
 
 a {
     color: black;
-    font: italic;
+    font-size: medium;
+    font-style:bold;
 }
 
 
@@ -62,39 +68,48 @@ footer {
 
 }
 
-<!----Grid-------------->
+
 .gridcontainer {
-   background-color: #B7A6B4;
+background-color: aqua;
+margin: 5rem auto;
+width: min(95% 75rem);
+display: grid;
+grid-template-columns: 
+
 
 
 }
 
-.gridbox {
-    color: yellow;
-    background-color: blue;
-    grid-area: box;
-}
-
-.box1 {
-    display: grid
-}
-
-.box2 {
+.grid1 {
     display: grid;
-    grid-area: box2;
+    grid-area: grid1;
+
 }
 
-.box3 {
+.grid2 {
     display: grid;
-    grid-area: box3;
+    grid-area: grid2;
+    
 }
 
+.grid3 {
+    display: grid;
+    grid-area: grid3;
+    
+}
 
+.grid4 {
+    display: grid;
+    grid-area: grid4;
+    
+}
 
-
-
-
-<!---removed list bullets----->ul {
+.grid5 {
+    display: grid;
+    grid-area: grid5;
+    
+}
+ul {
     list-style: none;
 }
 
