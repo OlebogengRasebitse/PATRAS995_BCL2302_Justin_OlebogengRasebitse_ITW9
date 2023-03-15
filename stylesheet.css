@@ -1,5 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFEECA;
 }
 
 header {
@@ -62,7 +63,6 @@ footer {
 
 
 .cover {
-    background-color: coral;
     width: 40%;
     justify-content: center;
 
@@ -70,7 +70,6 @@ footer {
 
 
 .gridcontainer {
-background-color: aqua;
 margin: 5rem auto;
 width: min(95% 75rem);
 display: grid;
@@ -82,6 +81,7 @@ grid-template-columns: 50% 50%;
 }
 
 .box1 {
+    margin: 20px;
    padding: 20px;
  
 
@@ -89,16 +89,19 @@ grid-template-columns: 50% 50%;
 
 .box2 {
     display: grid;
+    margin: 20px;
    padding: 20px;
 }
 
 .box3 {
+    margin: 20px;
+    padding: 20px;
 
 }
 
 .box4 {
-    padding: 20px;
-    padding: 20px;
+    margin: 20px;
+    padding: 40px;
     grid-column-start: 2;
     grid-column-end: 1;
     grid-row-start: 2;
@@ -107,7 +110,8 @@ grid-template-columns: 50% 50%;
 }
 
 .box5 {
-   
+    margin: 20px;
+    padding: 20px;
     
 }
 ul {
