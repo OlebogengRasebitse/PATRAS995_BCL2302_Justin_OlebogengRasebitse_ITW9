@@ -74,39 +74,34 @@ background-color: aqua;
 margin: 5rem auto;
 width: min(95% 75rem);
 display: grid;
-grid-template-columns: 
+grid-template-columns: 50% 50%;
 
 
 
 }
 
-.grid1 {
-    display: grid;
-    grid-area: grid1;
+.box1 {
+   padding: 20px;
 
 }
 
-.grid2 {
+.box2 {
     display: grid;
-    grid-area: grid2;
+   padding: 20px;
+}
+
+.box3 {
+ padding: 20px;
     
 }
 
-.grid3 {
-    display: grid;
-    grid-area: grid3;
+.box4 {
+    padding: 20px;
     
 }
 
-.grid4 {
-    display: grid;
-    grid-area: grid4;
-    
-}
-
-.grid5 {
-    display: grid;
-    grid-area: grid5;
+.box5 {
+   
     
 }
 ul {
