@@ -1,7 +1,25 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: #E5FFFC;
+    
+}
+.fa-github {
+  font-size: medium;
+}
+    
+h1 {
+    color:#003937 ;
 }
 
+h2 {
+    color: #005350;
+    
+}
+
+h3 {
+    color:#006E6A ;
+}
 
 img {
 
@@ -24,7 +42,7 @@ a {
     height: 50%;
     position: static;
     bottom: 39%;
-   background-image: url();
+    background-image: url(/images/szabo-viktor-28ZbKOWiZfs-unsplash.jpg);
    align-items: center;
    justify-content: center;
    background-repeat: no-repeat;
@@ -97,25 +115,30 @@ a {
 
 footer {
     background-color: #00AAA3;
-    text-align: center;
+   
 }
 
 ul {
     list-style: none;
 }
 
+.links {
+    display: flex;
+    margin-right: 50px;
+justify-content: end;
 
-/*=======================================Mobile===========================================================*/
-@media screen and (max-width: 450px) {
 
-    body {
-        font-size: 6px;
-    }
-    header {
-        font-size: 2px;
-        
+
 }
 
+
+/*=======================================Mobile===========================================================*/
+@media screen and (max-width: 550px) {
+        
+
+body {
+    font-size: 2px;
+}
 
 
 img {
@@ -151,6 +174,22 @@ img {
   
     
 }
+}
 
-.formalign 
+/*=============================================Tablet=====================================================*/
+@media screen and (min-width:768px) and (max-width:1025px) {
+    
+    body {
+    font-size: 50px;
+    }
+
+
+
+}
+
+/*=======================================Desktop===========================================================*/
+@media screen and (min-width:1024) {
+body {
+    font-size: 16px;
+}
 }
