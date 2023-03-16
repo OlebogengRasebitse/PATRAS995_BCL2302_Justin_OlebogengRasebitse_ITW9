@@ -24,7 +24,7 @@ a {
     height: 50%;
     position: static;
     bottom: 39%;
-    background-image: url(images/aryan-dhiman-iGLLtLINSkw-unsplash.jpg);
+   background-image: url();
    align-items: center;
    justify-content: center;
    background-repeat: no-repeat;
@@ -152,5 +152,5 @@ img {
     
 }
 
-
+.formalign 
 }
