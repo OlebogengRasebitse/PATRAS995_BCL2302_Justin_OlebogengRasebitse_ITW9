@@ -35,7 +35,7 @@ a {
 }
 
 .navbar {
-    background-color: #070035;
+    background-color: #3FB6B0;
     justify-content: space-around;  
     align-items: center;
     display: flex;
@@ -91,10 +91,66 @@ a {
         margin: 20px;
         padding: 20px;
         border: solid #3FB6B0;
+        align-items: end;
         
     }
 
 footer {
     background-color: #00AAA3;
     text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*=======================================Mobile===========================================================*/
+@media screen and (max-width: 450px) {
+
+    body {
+        font-size: 6px;
+    }
+    header {
+        font-size: 2px;
+        
+}
+
+
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+
+.box1 {
+    padding:3px ;
+    margin: 3px;
+}
+
+.box2 {
+    margin: 3px;
+   padding: 3px;
+
+}
+
+.box3 {
+    margin: 5px;
+    padding: 5px;
+}
+
+.box4 {
+    margin: 5px;
+    padding: 5px;
+}
+
+.box5 {
+    margin: 5px;
+    padding: 5px;
+  
+    
+}
+
+
 }
