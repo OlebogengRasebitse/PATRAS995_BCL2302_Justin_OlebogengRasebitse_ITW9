@@ -1,11 +1,20 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
     background-color: #E5FFFC;
     
 }
 .fa-github {
-  font-size: medium;
+  font-size: 80px;
+  color: black;
+}
+
+.fa-linkedin {
+    font-size: 80px; 
+    color: navy;
+}
+
+.name {
+    font-size: medium;
 }
     
 h1 {
@@ -73,6 +82,126 @@ a {
     .box1 {
         margin: 20px;
        padding: 20px;
+      
+     
+    
+    }
+
+
+    .box2 {
+        display: grid;
+        margin: 20px;
+       padding: 20px;
+
+    }
+
+    .box3 {
+        margin: 20px;
+        padding: 20px;
+       
+    
+    }
+
+    .box4 {
+        margin: 20px;
+        padding: 40px;
+        grid-column-start: 2;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-column-end:1 ;
+       
+    }
+
+    .box5 {
+        box-sizing: border-box;
+        max-width: fit-content;
+        margin: 20px;
+        padding: 20px;
+        
+        align-items: end;
+        
+    }
+
+footer {
+    background-color: #00AAA3;
+   
+}
+
+ul {
+    list-style: none;
+}
+
+.links {
+    display: flex;
+    margin-right: 50px;
+justify-content: end;
+
+
+
+}
+
+
+/*=======================================Mobile===========================================================*/
+@media screen and (max-width: 550px) {
+        body {
+            font-size: 10px
+        };
+
+        .box1 {
+            margin: 2px;
+           padding: 2px;
+           
+         
+        
+        }
+
+        .headerblock {
+            font-size: 6px;
+        }
+    
+    
+        .box2 {
+            display: grid;
+            margin: 20px;
+           padding: 20px;
+   
+        }
+    
+        .box3 {
+            margin: 20px;
+            padding: 2px;
+           
+        
+        }
+    
+        .box4 {
+            margin: 2px;
+            padding: 2px;
+            
+        }
+    
+        .box5 {
+            margin: 2px;
+            padding: 10px;
+           
+            
+        }
+    
+        .navbar {
+          display: block;
+        }
+
+}
+
+/*=============================================Tablet=====================================================*/
+@media screen and (min-width:768px) and (max-width:1025px) {
+    
+    body {
+    font-size: 50px;
+    }
+    .box1 {
+        margin: 20px;
+       padding: 20px;
        border: solid #3FB6B0;
      
     
@@ -113,76 +242,6 @@ a {
         
     }
 
-footer {
-    background-color: #00AAA3;
-   
-}
-
-ul {
-    list-style: none;
-}
-
-.links {
-    display: flex;
-    margin-right: 50px;
-justify-content: end;
-
-
-
-}
-
-
-/*=======================================Mobile===========================================================*/
-@media screen and (max-width: 550px) {
-        
-
-body {
-    font-size: 2px;
-}
-
-
-img {
-    width: 20%;
-    height: 20%;
-}
-
-
-.box1 {
-    padding:3px ;
-    margin: 3px;
-}
-
-.box2 {
-    margin: 3px;
-   padding: 3px;
-
-}
-
-.box3 {
-    margin: 5px;
-    padding: 5px;
-}
-
-.box4 {
-    margin: 5px;
-    padding: 5px;
-}
-
-.box5 {
-    margin: 5px;
-    padding: 5px;
-  
-    
-}
-}
-
-/*=============================================Tablet=====================================================*/
-@media screen and (min-width:768px) and (max-width:1025px) {
-    
-    body {
-    font-size: 50px;
-    }
-
 
 
 }
@@ -190,6 +249,34 @@ img {
 /*=======================================Desktop===========================================================*/
 @media screen and (min-width:1024) {
 body {
-    font-size: 16px;
+    font-size: 20px;
+}
+
+.box1 {
+
+   border: solid #3FB6B0;
+ 
+
+}
+
+
+.box2 {
+   border: solid #3FB6B0;
+}
+
+.box3 {
+    border: solid #3FB6B0;
+
+}
+
+.box4 {
+    border: solid #3FB6B0;
+}
+
+.box5 {
+    margin: 20px;
+    
+    border: solid #3FB6B0;
+   
 }
 }
